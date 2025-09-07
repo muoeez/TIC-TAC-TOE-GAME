@@ -1,0 +1,121 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: rgb(0, 0, 0);
+   text-align: center;
+   font-size: 40px;
+   color: aliceblue;
+}
+.container {
+   height: 70vh;
+   width: 70vh;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   place-self: center;
+   margin-top: 10px;
+}
+.game {
+   height: 60vmin;
+   width: 60vmin;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1.5vmin;
+   justify-content: center;
+   align-items: center;
+}
+.box {
+   height: 17vmin;
+   width: 17vmin;
+   border-radius: 100px;
+   background-color: blanchedalmond;
+   border-width: 10px;
+   border-color: rgb(161, 34, 34);
+   color: black;
+   font-size: 8vmin;
+}
+.box:hover {
+   background-color: aquamarine;
+   border-color: blue;
+}
+#reset-btn {
+   color: aqua;
+   background-color: rgb(0, 0, 0);
+   height: 40px;
+   width: 100px;
+   border-radius: 10px;
+   border-color: aqua;
+   box-shadow: 5px;
+   scrollbar-shadow-color: aqua;
+   border-width: 3px;
+   text-transform: capitalize;
+   transition-property: all;
+   transition-duration: 0.3s;
+   transition-timing-function: ease-in-out;
+}
+#reset-btn:hover {
+   color: greenyellow;
+   background-color: rgb(0, 0, 0);
+   height: 40px;
+   width: 100px;
+   border-radius: 10px;
+   border-color: greenyellow;
+   box-shadow: 5px;
+   scrollbar-shadow-color: greenyellow;
+   border-width: 3px;
+   text-transform: capitalize;
+   cursor: pointer;
+}
+#new-btn {
+   color: aqua;
+   background-color: rgb(0, 0, 0);
+   height: 40px;
+   width: 100px;
+   border-radius: 10px;
+   border-color: aqua;
+   box-shadow: 5px;
+   scrollbar-shadow-color: aqua;
+   border-width: 3px;
+   text-transform: capitalize;
+   transition-property: all;
+   transition-duration: 0.3s;
+   transition-timing-function: ease-in-out;
+}
+#new-btn:hover {
+   color: greenyellow;
+   background-color: rgb(0, 0, 0);
+   height: 40px;
+   width: 100px;
+   border-radius: 10px;
+   border-color: greenyellow;
+   box-shadow: 5px;
+   scrollbar-shadow-color: greenyellow;
+   border-width: 3px;
+   text-transform: capitalize;
+   cursor: pointer;
+}
+.msg-container {
+   height: 10vh;
+   width: 70vh;
+   display: none;
+   justify-content: center;
+   align-items: center;
+   place-self: center;
+   background-color: rgb(48, 48, 48);
+   color: aqua;
+   border-radius: 20px;
+}
+.msg-container.show {
+   display: flex;
+   text-align: center;
+}
+p {
+   font-size: 30px;
+   font-weight: 600;
+   text-transform: capitalize;
+   color: bisque;
+}
